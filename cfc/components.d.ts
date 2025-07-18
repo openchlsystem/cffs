@@ -10,7 +10,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     ChildFriendlyCard: typeof import('./src/components/ChildFriendlyCard.vue')['default']
     DrawingBoard: typeof import('./src/components/DrawingBoard.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     HeroPage: typeof import('./src/components/HeroPage.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
@@ -18,7 +17,6 @@ declare module 'vue' {
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     IMdiChevronRight: typeof import('~icons/mdi/chevron-right')['default']
-    IMdiControllerClassic: typeof import('~icons/mdi/controller-classic')['default']
     IMdiEmail: typeof import('~icons/mdi/email')['default']
     IMdiFacebook: typeof import('~icons/mdi/facebook')['default']
     IMdiInstagram: typeof import('~icons/mdi/instagram')['default']
